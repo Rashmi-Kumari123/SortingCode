@@ -2,5 +2,13 @@
 .idea/
 *.iml
 
-# Ignore compiled output directory
-out/
+# Ignore compiled Java class files
+*.class
+
+# Ignore IntelliJ / Eclipse / VSCode build folders
+/out/
+/bin/
+/build/
+/target/
+
+
