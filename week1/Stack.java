@@ -1,4 +1,4 @@
-package week1;
+// package week1;
 
 public class Stack {
     private final int[] arr;

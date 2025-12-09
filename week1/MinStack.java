@@ -1,6 +1,6 @@
 // design a stack  in which addition to push and pop, has a function min which returns the minimum element. Push, Pop, min should all operate in O(1) time.
 
-package week1;
+// package week1;
 public class MinStack {
     private java.util.Stack<Integer> mainStk;
     private java.util.Stack<Integer> minStk;

@@ -1,5 +1,5 @@
 //function that is checking if a circular queue is full or not
-package week1;
+// package week1;
 
 public class CircularQueue {
     int[] queue;

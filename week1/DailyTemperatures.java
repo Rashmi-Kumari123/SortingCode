@@ -1,4 +1,4 @@
-package week1;
+// package week1;
 import java.util.Arrays;
 public class DailyTemperatures {
     public int[] dailyTemperatures(int[] temperatures){

@@ -1,5 +1,5 @@
 //count the number of elements in a circular Linked list
-package week1;
+// package week1;
 class Node {
     int data;
     Node next;

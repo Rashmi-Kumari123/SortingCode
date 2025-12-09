@@ -1,5 +1,5 @@
 
-package week1;
+// package week1;
 class ListNode{
     int val;
     ListNode next;
