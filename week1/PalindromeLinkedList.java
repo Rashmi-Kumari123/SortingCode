@@ -88,7 +88,7 @@ public class PalindromeLinkedList {
         System.out.println("Is Palindrome: " + result2);
         System.out.println();
 
-        // Bonus Example 3: Single element (palindrome)
+        //  Example 3: Single element (palindrome)
         System.out.println("Example 3: Single Element");
         System.out.println("=========================");
         int[] arr3 = {5};
