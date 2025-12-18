@@ -22,7 +22,7 @@ def bfs(graph, node):
         print(s, end = ' ')
 
         for n in graph[s]:
-            if n not in visited: # Because visited is a set, this lookup is O(1).
+            if n not in visited: # here visited is a set, so this lookup is O(1).
                 visited.add(n)
                 queue.append(n)
 def main():
