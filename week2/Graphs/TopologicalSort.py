@@ -21,26 +21,17 @@ def topSort(V, edges):
             if indegree[neigh] == 0:
                 q.append(neigh)
     return topo
-
-
-# Example 1: Course Prerequisites
-# Courses: 0=Math, 1=Physics, 2=Chemistry, 3=Biology, 4=CS
-# Prerequisites: Math before Physics, Physics before CS, Chemistry before Biology
+    
 V = 5
-edges = [[0, 1], [1, 4], [2, 3]]  # Math->Physics, Physics->CS, Chemistry->Biology
+edges = [[0, 1], [1, 4], [2, 3]] 
 result = topSort(V, edges)
-print("Example 1: Course Prerequisites")
 print(f"Input: V={V}, edges={edges}")
 print(f"Topological Order: {result}")
 print()
 
-# Example 2: Task Scheduling
-# Tasks: 0=Design, 1=Code, 2=Test, 3=Deploy, 4=Monitor
-# Dependencies: Design before Code, Code before Test, Test before Deploy, Deploy before Monitor
 V = 5
-edges = [[0, 1], [1, 2], [2, 3], [3, 4]]  # Design->Code->Test->Deploy->Monitor
+edges = [[0, 1], [1, 2], [2, 3], [3, 4]]  
 result = topSort(V, edges)
-print("Example 2: Task Scheduling")
 print(f"Input: V={V}, edges={edges}")
 print(f"Topological Order: {result}")
 
