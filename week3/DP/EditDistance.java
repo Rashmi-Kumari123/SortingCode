@@ -34,11 +34,12 @@ public class EditDistance {
         String word2 = "ros";
         int result1 = solution.minDistance(word1, word2);
         System.out.println("  Minimum Edit Distance: " + result1);
-        
+
         String word3 = "intention";
         String word4 = "execution";
         int result2 = solution.minDistance(word3, word4);
         System.out.println("  Minimum Edit Distance: " + result2);
+      
     } 
 }
 
