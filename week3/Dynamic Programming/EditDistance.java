@@ -1,4 +1,4 @@
-package week3.DP;
+// package week3.DP;
 
 public class EditDistance {
     public int minDistance(String word1, String word2) {
